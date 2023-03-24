@@ -100,22 +100,40 @@ scale: 0.4;
 /* EX10 */
 .ex-10-icon {
     font-size: 60px;
-    animation: transform 2s ease;
+    animation: transform10 1s linear;
     animation-iteration-count: infinite;
     
 }
 
 
-    @keyframes transform{
+@keyframes transform10{
         
         0% {transform: rotate(360deg);
         }
-     
 }
 
+/* Ex11 */
 .ex-11-icon {
     font-size: 60px;
+    }
+
+.ex-11-icon:hover{
+    animation: transform11 2s linear;
 }
+
+@keyframes transform11 {
+    90% {transform: rotate(300deg);
+    }
+    10%{
+        transform: rotate(0deg)
+
+    }
+
+    
+}
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
