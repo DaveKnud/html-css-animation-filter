@@ -155,6 +155,7 @@ scale: 0.4;
     width: 60px;
     height: 20px;
 }
+
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
@@ -163,3 +164,26 @@ scale: 0.4;
     width: 60px;
     height: 20px;
 }
+
+            /* EX12 */
+/* Top */
+.col-xs-12:hover .ex-12-top-white{
+    animation: left-right 2s linear;
+}
+
+@keyframes left-right {
+    50%{left:69%}
+}
+
+/* bottom */
+
+.col-xs-12:hover .ex-12-bottom-white{
+    animation: right-left 2s linear;
+}
+
+@keyframes right-left {
+    50%{right:69%}
+}
+
+
+            /* EX13 */
